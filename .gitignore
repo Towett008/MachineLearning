@@ -1,0 +1,41 @@
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Virtual Environments =====
+venv/
+env/
+ENV/
+.venv/
+
+# ===== Environment / Secrets =====
+.env
+*.env
+
+# ===== OS-specific files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / Editor files =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Data files (optional - uncomment if you don't want to push large datasets) =====
+# *.csv
+# *.xlsx
+# data/
+
+# ===== Logs / temp files =====
+*.log
+*.tmp
+
+# ===== Jupyter checkpoints in any nested folder (extra safety net) =====
+**/.ipynb_checkpoints/
